@@ -147,3 +147,6 @@ def schedule_api():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+application = app  # <- tambahkan baris ini untuk cPanel WSGI
+
