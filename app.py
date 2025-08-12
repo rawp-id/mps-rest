@@ -145,8 +145,8 @@ def schedule_api():
         return jsonify({"error": str(e)}), 500
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     app.run(debug=True)
 
-application = app  # <- tambahkan baris ini untuk cPanel WSGI
+# application = app  # <- tambahkan baris ini untuk cPanel WSGI
 
