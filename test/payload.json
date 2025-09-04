@@ -1,0 +1,245 @@
+{
+    "horizon": [
+        "2025-09-07",
+        "2025-09-08",
+        "2025-09-09"
+    ],
+    "capacities": [
+        {
+            "machine_id": 1,
+            "date": "2025-09-07",
+            "minutes": 960
+        },
+        {
+            "machine_id": 1,
+            "date": "2025-09-08",
+            "minutes": 0
+        },
+        {
+            "machine_id": 1,
+            "date": "2025-09-09",
+            "minutes": 960
+        },
+        {
+            "machine_id": 2,
+            "date": "2025-09-07",
+            "minutes": 480
+        },
+        {
+            "machine_id": 2,
+            "date": "2025-09-08",
+            "minutes": 0
+        },
+        {
+            "machine_id": 2,
+            "date": "2025-09-09",
+            "minutes": 480
+        },
+        {
+            "machine_id": 3,
+            "date": "2025-09-07",
+            "minutes": 0
+        },
+        {
+            "machine_id": 3,
+            "date": "2025-09-08",
+            "minutes": 0
+        },
+        {
+            "machine_id": 3,
+            "date": "2025-09-09",
+            "minutes": 0
+        },
+        {
+            "machine_id": 4,
+            "date": "2025-09-07",
+            "minutes": 0
+        },
+        {
+            "machine_id": 4,
+            "date": "2025-09-08",
+            "minutes": 0
+        },
+        {
+            "machine_id": 4,
+            "date": "2025-09-09",
+            "minutes": 0
+        },
+        {
+            "machine_id": 5,
+            "date": "2025-09-07",
+            "minutes": 0
+        },
+        {
+            "machine_id": 5,
+            "date": "2025-09-08",
+            "minutes": 0
+        },
+        {
+            "machine_id": 5,
+            "date": "2025-09-09",
+            "minutes": 0
+        },
+        {
+            "machine_id": 6,
+            "date": "2025-09-07",
+            "minutes": 0
+        },
+        {
+            "machine_id": 6,
+            "date": "2025-09-08",
+            "minutes": 0
+        },
+        {
+            "machine_id": 6,
+            "date": "2025-09-09",
+            "minutes": 0
+        },
+        {
+            "machine_id": 7,
+            "date": "2025-09-07",
+            "minutes": 0
+        },
+        {
+            "machine_id": 7,
+            "date": "2025-09-08",
+            "minutes": 0
+        },
+        {
+            "machine_id": 7,
+            "date": "2025-09-09",
+            "minutes": 0
+        },
+        {
+            "machine_id": 8,
+            "date": "2025-09-07",
+            "minutes": 0
+        },
+        {
+            "machine_id": 8,
+            "date": "2025-09-08",
+            "minutes": 0
+        },
+        {
+            "machine_id": 8,
+            "date": "2025-09-09",
+            "minutes": 0
+        },
+        {
+            "machine_id": 9,
+            "date": "2025-09-07",
+            "minutes": 0
+        },
+        {
+            "machine_id": 9,
+            "date": "2025-09-08",
+            "minutes": 0
+        },
+        {
+            "machine_id": 9,
+            "date": "2025-09-09",
+            "minutes": 0
+        },
+        {
+            "machine_id": 10,
+            "date": "2025-09-07",
+            "minutes": 0
+        },
+        {
+            "machine_id": 10,
+            "date": "2025-09-08",
+            "minutes": 0
+        },
+        {
+            "machine_id": 10,
+            "date": "2025-09-09",
+            "minutes": 0
+        },
+        {
+            "machine_id": 11,
+            "date": "2025-09-07",
+            "minutes": 0
+        },
+        {
+            "machine_id": 11,
+            "date": "2025-09-08",
+            "minutes": 0
+        },
+        {
+            "machine_id": 11,
+            "date": "2025-09-09",
+            "minutes": 0
+        },
+        {
+            "machine_id": 12,
+            "date": "2025-09-07",
+            "minutes": 0
+        },
+        {
+            "machine_id": 12,
+            "date": "2025-09-08",
+            "minutes": 0
+        },
+        {
+            "machine_id": 12,
+            "date": "2025-09-09",
+            "minutes": 0
+        },
+        {
+            "machine_id": 13,
+            "date": "2025-09-07",
+            "minutes": 0
+        },
+        {
+            "machine_id": 13,
+            "date": "2025-09-08",
+            "minutes": 0
+        },
+        {
+            "machine_id": 13,
+            "date": "2025-09-09",
+            "minutes": 0
+        },
+        {
+            "machine_id": 14,
+            "date": "2025-09-07",
+            "minutes": 0
+        },
+        {
+            "machine_id": 14,
+            "date": "2025-09-08",
+            "minutes": 0
+        },
+        {
+            "machine_id": 14,
+            "date": "2025-09-09",
+            "minutes": 0
+        },
+        {
+            "machine_id": 15,
+            "date": "2025-09-07",
+            "minutes": 0
+        },
+        {
+            "machine_id": 15,
+            "date": "2025-09-08",
+            "minutes": 0
+        },
+        {
+            "machine_id": 15,
+            "date": "2025-09-09",
+            "minutes": 0
+        }
+    ],
+    "jobs": [],
+    "locks": {
+        "capacity": [],
+        "pins": []
+    },
+    "params": {
+        "time_limit_sec": 15,
+        "late_penalty": 10,
+        "setup_penalty": 1,
+        "split_chunk_max": 240
+    }
+}

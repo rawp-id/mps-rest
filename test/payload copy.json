@@ -1,0 +1,275 @@
+{
+    "horizon": [
+        "2025-09-04",
+        "2025-09-05",
+        "2025-09-06",
+        "2025-09-07",
+        "2025-09-08",
+        "2025-09-09",
+        "2025-09-10"
+    ],
+    "capacities": [
+        {
+            "machine_id": 1,
+            "date": "2025-09-04",
+            "minutes": 420
+        },
+        {
+            "machine_id": 1,
+            "date": "2025-09-05",
+            "minutes": 420
+        },
+        {
+            "machine_id": 1,
+            "date": "2025-09-06",
+            "minutes": 420
+        },
+        {
+            "machine_id": 1,
+            "date": "2025-09-07",
+            "minutes": 0
+        },
+        {
+            "machine_id": 1,
+            "date": "2025-09-08",
+            "minutes": 480
+        },
+        {
+            "machine_id": 1,
+            "date": "2025-09-09",
+            "minutes": 420
+        },
+        {
+            "machine_id": 1,
+            "date": "2025-09-10",
+            "minutes": 420
+        },
+        {
+            "machine_id": 2,
+            "date": "2025-09-04",
+            "minutes": 360
+        },
+        {
+            "machine_id": 2,
+            "date": "2025-09-05",
+            "minutes": 360
+        },
+        {
+            "machine_id": 2,
+            "date": "2025-09-06",
+            "minutes": 240
+        },
+        {
+            "machine_id": 2,
+            "date": "2025-09-07",
+            "minutes": 0
+        },
+        {
+            "machine_id": 2,
+            "date": "2025-09-08",
+            "minutes": 360
+        },
+        {
+            "machine_id": 2,
+            "date": "2025-09-09",
+            "minutes": 360
+        },
+        {
+            "machine_id": 2,
+            "date": "2025-09-10",
+            "minutes": 360
+        },
+        {
+            "machine_id": 3,
+            "date": "2025-09-04",
+            "minutes": 300
+        },
+        {
+            "machine_id": 3,
+            "date": "2025-09-05",
+            "minutes": 300
+        },
+        {
+            "machine_id": 3,
+            "date": "2025-09-06",
+            "minutes": 300
+        },
+        {
+            "machine_id": 3,
+            "date": "2025-09-07",
+            "minutes": 0
+        },
+        {
+            "machine_id": 3,
+            "date": "2025-09-08",
+            "minutes": 360
+        },
+        {
+            "machine_id": 3,
+            "date": "2025-09-09",
+            "minutes": 300
+        },
+        {
+            "machine_id": 3,
+            "date": "2025-09-10",
+            "minutes": 300
+        }
+    ],
+    "windows": [
+        {
+            "machine_id": 1,
+            "date": "2025-09-04",
+            "intervals": [
+                {
+                    "start": "08:00",
+                    "end": "12:00",
+                    "shift_id": 11,
+                    "is_overtime": 0
+                },
+                {
+                    "start": "13:00",
+                    "end": "17:00",
+                    "shift_id": 11,
+                    "is_overtime": 0
+                }
+            ]
+        },
+        {
+            "machine_id": 1,
+            "date": "2025-09-05",
+            "intervals": [
+                {
+                    "start": "19:00",
+                    "end": "22:00",
+                    "shift_id": null,
+                    "is_overtime": 1
+                }
+            ]
+        }
+    ],
+    "op_time_windows": [
+        {
+            "co_product_id": 102,
+            "operation_id": 601,
+            "date": "2025-09-05",
+            "start": "09:00",
+            "end": "12:00"
+        }
+    ],
+    "jobs": [
+        {
+            "co_product_id": 101,
+            "product_id": 11,
+            "code": "PRD-A",
+            "due_date": "2025-09-09",
+            "ops": [
+                {
+                    "pp_id": 1001,
+                    "operation_id": 501,
+                    "machine": 1,
+                    "minutes": 240,
+                    "is_setup": 1
+                },
+                {
+                    "pp_id": 1002,
+                    "operation_id": 502,
+                    "machine": 2,
+                    "minutes": 180,
+                    "is_setup": 0
+                },
+                {
+                    "pp_id": 1003,
+                    "operation_id": 503,
+                    "machine": 3,
+                    "minutes": 120,
+                    "is_setup": 0
+                }
+            ]
+        },
+        {
+            "co_product_id": 102,
+            "product_id": 12,
+            "code": "PRD-B",
+            "due_date": "2025-09-08",
+            "ops": [
+                {
+                    "pp_id": 2001,
+                    "operation_id": 601,
+                    "machine": 2,
+                    "minutes": 300,
+                    "is_setup": 1
+                },
+                {
+                    "pp_id": 2002,
+                    "operation_id": 602,
+                    "machine": 1,
+                    "minutes": 180,
+                    "is_setup": 0
+                }
+            ]
+        },
+        {
+            "co_product_id": 103,
+            "product_id": 13,
+            "code": "PRD-C",
+            "due_date": "2025-09-10",
+            "ops": [
+                {
+                    "pp_id": 3001,
+                    "operation_id": 701,
+                    "machine": 1,
+                    "minutes": 360,
+                    "is_setup": 1
+                },
+                {
+                    "pp_id": 3002,
+                    "operation_id": 702,
+                    "machine": 3,
+                    "minutes": 240,
+                    "is_setup": 0
+                }
+            ]
+        }
+    ],
+    "locks": {
+        "capacity": [
+            {
+                "machine_id": 1,
+                "date": "2025-09-05",
+                "minutes": 120
+            },
+            {
+                "machine_id": 2,
+                "date": "2025-09-04",
+                "minutes": 60
+            },
+            {
+                "machine_id": 3,
+                "date": "2025-09-08",
+                "minutes": 90
+            }
+        ],
+        "pins": [
+            {
+                "co_product_id": 102,
+                "operation_id": 601,
+                "machine_id": 2,
+                "date": "2025-09-05",
+                "minutes": 300
+            },
+            {
+                "co_product_id": 101,
+                "operation_id": 503,
+                "machine_id": 3,
+                "date": "2025-09-09",
+                "minutes": 120
+            }
+        ]
+    },
+    "params": {
+        "time_limit_sec": 15,
+        "late_penalty": 10,
+        "setup_penalty": 1,
+        "split_chunk_max": 180
+    }
+}

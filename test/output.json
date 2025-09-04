@@ -1,0 +1,256 @@
+{
+    "status": "OPTIMAL",
+    "assignments": [
+        {
+            "date": "2025-09-05",
+            "machine_id": 1,
+            "co_product_id": 101,
+            "product_id": 11,
+            "product_code": "PRD-A",
+            "operation_id": 501,
+            "op_index": 0,
+            "pp_id": 1001,
+            "minutes": 180
+        },
+        {
+            "date": "2025-09-04",
+            "machine_id": 1,
+            "co_product_id": 101,
+            "product_id": 11,
+            "product_code": "PRD-A",
+            "operation_id": 501,
+            "op_index": 0,
+            "pp_id": 1001,
+            "minutes": 60
+        },
+        {
+            "date": "2025-09-04",
+            "machine_id": 2,
+            "co_product_id": 101,
+            "product_id": 11,
+            "product_code": "PRD-A",
+            "operation_id": 502,
+            "op_index": 1,
+            "pp_id": 1002,
+            "minutes": 180
+        },
+        {
+            "date": "2025-09-09",
+            "machine_id": 3,
+            "co_product_id": 101,
+            "product_id": 11,
+            "product_code": "PRD-A",
+            "operation_id": 503,
+            "op_index": 2,
+            "pp_id": 1003,
+            "minutes": 120
+        },
+        {
+            "date": "2025-09-10",
+            "machine_id": 2,
+            "co_product_id": 102,
+            "product_id": 12,
+            "product_code": "PRD-B",
+            "operation_id": 601,
+            "op_index": 0,
+            "pp_id": 2001,
+            "minutes": 180
+        },
+        {
+            "date": "2025-09-05",
+            "machine_id": 2,
+            "co_product_id": 102,
+            "product_id": 12,
+            "product_code": "PRD-B",
+            "operation_id": 601,
+            "op_index": 0,
+            "pp_id": 2001,
+            "minutes": 120
+        },
+        {
+            "date": "2025-09-08",
+            "machine_id": 1,
+            "co_product_id": 102,
+            "product_id": 12,
+            "product_code": "PRD-B",
+            "operation_id": 602,
+            "op_index": 1,
+            "pp_id": 2002,
+            "minutes": 180
+        },
+        {
+            "date": "2025-09-04",
+            "machine_id": 1,
+            "co_product_id": 103,
+            "product_id": 13,
+            "product_code": "PRD-C",
+            "operation_id": 701,
+            "op_index": 0,
+            "pp_id": 3001,
+            "minutes": 180
+        },
+        {
+            "date": "2025-09-04",
+            "machine_id": 1,
+            "co_product_id": 103,
+            "product_id": 13,
+            "product_code": "PRD-C",
+            "operation_id": 701,
+            "op_index": 0,
+            "pp_id": 3001,
+            "minutes": 180
+        },
+        {
+            "date": "2025-09-04",
+            "machine_id": 3,
+            "co_product_id": 103,
+            "product_id": 13,
+            "product_code": "PRD-C",
+            "operation_id": 702,
+            "op_index": 1,
+            "pp_id": 3002,
+            "minutes": 180
+        },
+        {
+            "date": "2025-09-04",
+            "machine_id": 3,
+            "co_product_id": 103,
+            "product_id": 13,
+            "product_code": "PRD-C",
+            "operation_id": 702,
+            "op_index": 1,
+            "pp_id": 3002,
+            "minutes": 60
+        }
+    ],
+    "machine_load": [
+        {
+            "date": "2025-09-04",
+            "machine_id": 1,
+            "used": 420,
+            "capacity": 420
+        },
+        {
+            "date": "2025-09-05",
+            "machine_id": 1,
+            "used": 180,
+            "capacity": 300
+        },
+        {
+            "date": "2025-09-06",
+            "machine_id": 1,
+            "used": 0,
+            "capacity": 420
+        },
+        {
+            "date": "2025-09-08",
+            "machine_id": 1,
+            "used": 180,
+            "capacity": 480
+        },
+        {
+            "date": "2025-09-09",
+            "machine_id": 1,
+            "used": 0,
+            "capacity": 420
+        },
+        {
+            "date": "2025-09-10",
+            "machine_id": 1,
+            "used": 0,
+            "capacity": 420
+        },
+        {
+            "date": "2025-09-04",
+            "machine_id": 2,
+            "used": 180,
+            "capacity": 300
+        },
+        {
+            "date": "2025-09-05",
+            "machine_id": 2,
+            "used": 120,
+            "capacity": 360
+        },
+        {
+            "date": "2025-09-06",
+            "machine_id": 2,
+            "used": 0,
+            "capacity": 240
+        },
+        {
+            "date": "2025-09-08",
+            "machine_id": 2,
+            "used": 0,
+            "capacity": 360
+        },
+        {
+            "date": "2025-09-09",
+            "machine_id": 2,
+            "used": 0,
+            "capacity": 360
+        },
+        {
+            "date": "2025-09-10",
+            "machine_id": 2,
+            "used": 180,
+            "capacity": 360
+        },
+        {
+            "date": "2025-09-04",
+            "machine_id": 3,
+            "used": 240,
+            "capacity": 300
+        },
+        {
+            "date": "2025-09-05",
+            "machine_id": 3,
+            "used": 0,
+            "capacity": 300
+        },
+        {
+            "date": "2025-09-06",
+            "machine_id": 3,
+            "used": 0,
+            "capacity": 300
+        },
+        {
+            "date": "2025-09-08",
+            "machine_id": 3,
+            "used": 0,
+            "capacity": 270
+        },
+        {
+            "date": "2025-09-09",
+            "machine_id": 3,
+            "used": 120,
+            "capacity": 300
+        },
+        {
+            "date": "2025-09-10",
+            "machine_id": 3,
+            "used": 0,
+            "capacity": 300
+        }
+    ],
+    "job_kpi": [
+        {
+            "co_product_id": 101,
+            "due_date": "2025-09-09",
+            "first_day": 5,
+            "lateness_days": 0
+        },
+        {
+            "co_product_id": 102,
+            "due_date": "2025-09-08",
+            "first_day": 4,
+            "lateness_days": 0
+        },
+        {
+            "co_product_id": 103,
+            "due_date": "2025-09-10",
+            "first_day": 0,
+            "lateness_days": 0
+        }
+    ]
+}
