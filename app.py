@@ -194,6 +194,7 @@ def schedule(now, jobs_data, shipment_deadlines, products):
             product = products[job_id]
             pid = product.get("id")
             pname = product.get("name")
+            co_product_id = product.get("co_product_id")
             is_locked_job = product_locked[job_id]
 
             for seq_id, (operation, duration) in enumerate(job, start=1):
@@ -206,6 +207,7 @@ def schedule(now, jobs_data, shipment_deadlines, products):
                     "id": global_task_id,
                     "task_id": f"{pid}.{seq_id}",
                     "product_id": pid,
+                    "co_product_id": co_product_id,
                     "product_name": pname,
                     "operation_id": operation,
                     "duration": duration,  # menit kerja
