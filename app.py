@@ -168,7 +168,7 @@ def schedule(now, jobs_data, shipment_deadlines, products):
         global_task_id = 1
         for job_id, job in enumerate(jobs_data):
             product = products[job_id]
-            co_product_id = product.get("id")
+            product_id = product.get("id")
             product_name = product.get("name")
 
             for seq_id, (operation, duration, locked_flag) in enumerate(job, start=1):
@@ -176,8 +176,8 @@ def schedule(now, jobs_data, shipment_deadlines, products):
                 end = solver.Value(all_tasks[(job_id, seq_id - 1)][1])
                 all_tasks_list.append({
                     "id": global_task_id,
-                    "task_id": f"{co_product_id}.{seq_id}",
-                    "co_product_id": co_product_id,
+                    "task_id": f"{product_id}.{seq_id}",
+                    "product_id": product_id,
                     "product_name": product_name,
                     "operation_id": operation,
                     "duration": duration,
@@ -185,8 +185,8 @@ def schedule(now, jobs_data, shipment_deadlines, products):
                     "end_minute": end,
                     "start_time": (now + timedelta(minutes=start)).strftime("%Y-%m-%d %H:%M"),
                     "end_time": (now + timedelta(minutes=end)).strftime("%Y-%m-%d %H:%M"),
-                    "previous_task": f"{co_product_id}.{seq_id - 1}" if seq_id > 1 else None,
-                    "process_dependency": f"{co_product_id}.{seq_id}",
+                    "previous_task": f"{product_id}.{seq_id - 1}" if seq_id > 1 else None,
+                    "process_dependency": f"{product_id}.{seq_id}",
                     "is_locked": _to_bool(locked_flag),
                 })
                 global_task_id += 1
